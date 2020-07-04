@@ -1,0 +1,20 @@
+body{
+	background-image: url(../img/bg_main.gif);
+	background-color: #d2738a;
+}
+
+#first-section{
+	background: rgba(0, 0, 0);
+	box-shadow: black 0px 5px 10px;
+	margin-top: 1%;
+}
+#formulario{
+	height: 100%;
+	background-color: black;
+}
+
+#ultimos-episodios{
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: black 0px 5px 10px;
+	color: #c1b492;
+}
