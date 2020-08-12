@@ -13,7 +13,7 @@ body{
 	background-color: black;
 }
 
-#ultimos-episodios{
+.fondo-transparente{
 	background: rgba(0, 0, 0, 0.6);
 	box-shadow: black 0px 5px 10px;
 	color: #c1b492;
