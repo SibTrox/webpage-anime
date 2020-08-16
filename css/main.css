@@ -1,6 +1,35 @@
 body{
-	background-image: url(../img/bg_main.gif);
+	cursor: url(../img/cursor.gif), auto;
 	background-color: #d2738a;
+}
+
+.bg_main1{
+	background-image: url(../img/bg_main.gif);
+}
+
+.bg_main2{
+	background-image: url(../img/bg_main2.gif);
+}
+
+.bg_main3{
+	background-image: url(../img/bg_main3.gif);
+}
+
+.bg_main4{
+	background-image: url(../img/bg_main4.gif);
+}
+
+.bg_main5{
+	background-image: url(../img/bg_main5.gif);
+}
+
+a{
+	cursor: url(../img/cursor2.gif), default;
+}
+
+.boton_menu:hover{
+	background-color: red;
+	color: white;
 }
 
 #first-section{
@@ -17,4 +46,12 @@ body{
 	background: rgba(0, 0, 0, 0.6);
 	box-shadow: black 0px 5px 10px;
 	color: #c1b492;
+}
+
+.img-footer{
+	max-width: 150px;
+}
+
+footer{
+	margin-bottom: 0%;
 }
