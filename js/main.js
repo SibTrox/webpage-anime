@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+	/* Carrusel */
     var elems = document.querySelectorAll('.carousel');
     var instance = M.Carousel.init(elems,{
 		duration: 300,
@@ -6,9 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		indicators: true
 	});
 
-	var elemsMedia = document.querySelectorAll('.materialboxed');
-	var instances = M.Materialbox.init(elemsMedia);
-
+	/* Cambio de background */
 	var lainFooter = document.getElementById("lain-footer");
 	lainFooter.onclick = function(background){
 		var background = ["bg_main1", "bg_main2", "bg_main3", "bg_main4", "bg_main5"];
@@ -26,4 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		 }
 	}
+
+	/* Menu lateral */
+	var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
 });

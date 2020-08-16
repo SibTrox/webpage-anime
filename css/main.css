@@ -55,3 +55,7 @@ a{
 footer{
 	margin-bottom: 0%;
 }
+
+.sidenav{
+	background-image: url(../img/bg_sidemenu.gif);
+}
